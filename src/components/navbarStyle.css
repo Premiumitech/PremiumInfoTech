@@ -132,7 +132,7 @@ header {
   }
   
   .menu{
-    display: none;
+    display: block;
     z-index: 9;
   }
 
@@ -184,14 +184,12 @@ header {
       width: 80%;
     }
 
-  
     .menu-hamburger{
       display: block;  
       cursor: pointer ;
     }
 
     .menu{
-      display: none;
       cursor: pointer;
     }
   
