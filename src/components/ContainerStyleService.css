@@ -1,0 +1,83 @@
+.service-tittle-grid{
+  display: grid;
+
+}
+
+.service-tittle{
+  display: block;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #2C62A0;
+}
+
+ .container-service,
+ .row .service {
+  
+  width: 90%;
+  margin: auto;
+ 
+} 
+
+
+@media screen and (max-width:768px)
+{
+  .a{
+    padding-bottom: 15px;
+  }
+}
+
+ .card-01,
+ .card-02,
+ .card-03 {
+  width: 100%;
+  height: 427px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 10px rgba(111, 111, 111, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+}
+
+.rwd-icon,
+.mad-icon,
+.ba-icon {
+  display: block;
+  margin: 0;
+  padding: 0%;
+
+  margin: auto;
+  padding: 40px 30px;
+
+}
+
+.rwd-tittle,
+.mad-tittle,
+.ba-tittle {
+  display: block;
+  margin: 0%;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #2C62A0;
+
+}
+
+.rwd-content,
+.mad-content,
+.ba-content  {
+  margin: 0%;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 30px;
+
+  color: #263859;
+}
