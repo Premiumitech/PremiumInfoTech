@@ -19,10 +19,18 @@ function Footer () {
         </ul>
       </div>
       <div className="icon-footer">
-        <img className="facebook-icon" src={footerFacebook} alt="" />
-        <img className="linkedin-icon" src={footerLinkedin} alt="" />
-        <img className="instagram-icon" src={footerInstagram} alt="" />
-        <img className="twitter-icon" src={footerTwitter} alt="" />
+        <div className="facebookIcon">
+          <img className="facebook-icon" src={footerFacebook} alt="" />
+        </div>
+        <div className="linkedinIcon">
+          <img className="linkedin-icon" src={footerLinkedin} alt="" />
+        </div>
+        <div className="instagramIcon">
+          <img className="instagram-icon" src={footerInstagram} alt="" />
+        </div>
+        <div className="twitterIcon">
+         <img className="twitter-icon" src={footerTwitter} alt="" />
+        </div>
       </div>
       <div className="copyright-line">
         <div className="line">

@@ -40,7 +40,6 @@ footer {
 
 .footer-links li a {
   color: #fff;
-  font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -50,17 +49,28 @@ footer {
 }
 
 .icon-footer{
-  display: flex;
-  
+  display: block;
+  align-items: center;
   margin: 0px;
   width: 100%;
   padding: 20px 0px 20px 0px;
 }
 
-.linkedin-icon,
-.instagram-icon,
-.twitter-icon{
-  padding-left: 10px;
+.facebookIcon,
+.linkedinIcon,
+.instagramIcon,
+.twitterIcon{
+  display: inline-block;
+}
+
+.facebookIcon,
+.linkedinIcon,
+.instagramIcon,
+.twitterIcon{
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  margin-right: 4px;
 }
 
 .copyright-line{
@@ -74,7 +84,7 @@ footer {
   color: white;
   margin-bottom: 0px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   display: block;
  
@@ -92,7 +102,7 @@ footer {
   text-align: center;
 }  
 
-@media screen and (max-width:678px){
+@media screen and (max-width:700px){
   footer {
     color: #fff;
     padding: 20px;
@@ -109,7 +119,6 @@ footer {
     margin: auto;
   }
   
-  
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -117,6 +126,32 @@ footer {
     align-items: center;
     flex-wrap: wrap;
   }
+
+  .icon-footer{
+    display: block;
+    text-align: center;    
+    margin: 0px;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+  
+  .facebookIcon,
+  .linkedinIcon,
+  .instagramIcon,
+  .twitterIcon{
+    display: inline-block;
+  }
+  
+  .facebookIcon,
+  .linkedinIcon,
+  .instagramIcon,
+  .twitterIcon{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    margin-right: 4px;
+  }
+  
   
   .logo-container {
     order: 2;
@@ -149,3 +184,10 @@ footer {
     color: #ccc;
   }
 }
+
+
+
+
+ 
+
+ 

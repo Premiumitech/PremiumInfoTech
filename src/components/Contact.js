@@ -19,7 +19,13 @@ function Contact () {
 
     let mailBody = (name) + " " + (email) + " " + (phone) + " " + (message) 
 
-    window.open(`mailto:limweekit93@gmail.com?subject=Enquiry&body=${mailBody}`);
+    window.open(`mailto:premiumitechdesign@gmail.com?subject=Enquiry&body=${mailBody}`);
+
+    setName('')
+    setEmail('')
+    setPhone('')
+    setMessage('')
+
 
   }
 
